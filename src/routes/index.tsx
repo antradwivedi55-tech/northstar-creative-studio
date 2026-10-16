@@ -6,6 +6,7 @@ import { Portfolio } from "@/components/site/Portfolio";
 import { About } from "@/components/site/About";
 import { Process } from "@/components/site/Process";
 import { Contact } from "@/components/site/Contact";
+import { useReveal } from "@/hooks/use-reveal";
 import { SiteFooter } from "@/components/site/SiteFooter";
 
 const title = "Northstar Creative Studio — Branding, Content & Growth";
@@ -27,6 +28,7 @@ export const Route = createFileRoute("/")({
 });
 
 function Index() {
+  useReveal();
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
