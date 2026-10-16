@@ -17,8 +17,8 @@ export function About() {
         />
         <div className="space-y-10">
           {pillars.map((p) => (
-            <div key={p.t} className="border-l-2 border-gold pl-6">
-              <h3 className="font-display text-2xl font-bold">{p.t}</h3>
+            <div key={p.t} className="reveal border-l-2 border-gold pl-6">
+              <h3 className="font-display text-2xl font-bold text-gold">{p.t}</h3>
               <p className="mt-2 text-muted-foreground">{p.d}</p>
             </div>
           ))}

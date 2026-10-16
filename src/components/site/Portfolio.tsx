@@ -21,7 +21,7 @@ export function Portfolio() {
         />
         <div className="mt-16 grid gap-8 md:grid-cols-3">
           {projects.map((p) => (
-            <article key={p.t} className="group">
+            <article key={p.t} className="reveal group">
               <div className="relative overflow-hidden rounded-lg">
                 <img
                   src={p.img}
