@@ -1,24 +1,25 @@
 # Creative Agency Website
 
-Implement exactly the screenshot and nothing else
+A responsive website for a fictional creative agency, built using AI-assisted development.
 
-This project was built with [Lovable](https://lovable.dev).
+## Objective
 
-## Build with Lovable
+To explore how AI website-building tools can help businesses establish a professional digital presence.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/60e163e3-2955-41f0-9510-a499eb3e1c67).
+Tools: Lovable, GitHub, and the technologies actually used by the project.
+## Features
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+Responsive homepage
+Services section
+Portfolio showcase
+Agency introduction
+Contact form interface
 
-## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+# My contributions:
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Defined the website's purpose and target audience.
+Created prompts to generate the initial design.
+Reviewed and refined the website.
+Tested the layout and functionality.
+Managed the project's code using GitHub.
